@@ -1,0 +1,32 @@
+{
+  "name": "teitter-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index",
+    "build": "tsc -p .",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.0",
+    "@prisma/client": "^5.7.1",
+    "axios": "^1.6.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.10.6",
+    "prisma": "^5.7.1",
+    "tsc": "^2.0.4",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.3.3"
+  }
+}
